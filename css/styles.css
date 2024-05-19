@@ -1,1 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
 
+.timeline {
+    display: flex;
+}
+
+.years,
+.events {
+    flex: 1;
+}
+
+.years {
+    text-align: left;
+}
+
+.year {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.events {
+    padding-left: 20px;
+}
+
+/*.event {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
